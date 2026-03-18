@@ -12,15 +12,12 @@ This project demonstrates a **basic web server** built using Java, supporting mu
 
 ## 📁 Project Structure
 
-
 Webserver/
 ├── SingleThreaded/ # Server handling one client at a time
 ├── MultiThreaded/ # Server creates a new thread for each client
 ├── ThreadPool/ # Server uses a thread pool for managing clients
 ├── Client.java # Java client to connect to any server
 └── .gitignore
-
-
 
 ---
 
@@ -29,7 +26,7 @@ Webserver/
 ✅ Basic HTTP-style server-client communication  
 ✅ Multithreaded architecture using Java's threading APIs  
 ✅ Demonstrates `Socket`, `ServerSocket`, `Thread`, `ExecutorService`  
-✅ Modular structure for easy learning and experimentation  
+✅ Modular structure for easy learning and experimentation
 
 ---
 
@@ -37,7 +34,7 @@ Webserver/
 
 ### 1. Compile and Run the Server
 
-```bash
+````bash
 cd Webserver/SingleThreaded  # or MultiThreaded, ThreadPool
 javac Server.java
 java Server
@@ -61,7 +58,7 @@ I/O Streams (BufferedReader, PrintWriter)
 
 
 ✍️ Author
-Junaid 
+Aleena Khan
 📫 GitHub
 
 ---
@@ -86,3 +83,4 @@ Click "Add a README" on GitHub (where your screenshot shows).
 Paste the content above.
 
 Click Commit changes.
+````
